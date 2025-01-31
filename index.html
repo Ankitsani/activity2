@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            margin: 0;
+            padding: 0;
+            grid-template-rows: 2cm 2cm 2cm 2cm;
+            grid-template-columns: 5cm 5cm 5cm;
+            gap: 20px;
+        }
+        
+        .first{
+            text-align: center;
+            color: white;
+            background-color: green;
+            grid-column-start: 1;
+            grid-column-end: 7;
+            
+        }
+        .second{
+            color: green;
+
+        }
+        .third{
+            text-align: right;
+            color: green;
+            text-align: left;
+            grid-column-start: 6;
+            
+        }
+        .forth{
+            color: green;
+            text-align: right;
+            
+            grid-column-start: 1;
+            grid-column-end: ;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first">Welcome to Your Website Task<h1>Home  About  Contact</h1></div>
+        <div class="second">About CSS</div>
+        <div class="third">Box Model</div>
+        <div class="forth">Responsive Design</div>
+
+    </div>
+    
+</body>
+</html>
